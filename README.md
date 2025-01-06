@@ -1,0 +1,1 @@
+#Strapi Nuxt Boilerplate

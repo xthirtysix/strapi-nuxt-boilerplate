@@ -1,0 +1,36 @@
+{
+  "name": "strapi-nuxt-boilerplate",
+  "version": "0.1.0",
+  "description": "Strapi and Nuxt boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpx nx run-many --targets=dev -p api client",
+    "graph": "pnpm exec nx graph",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "strapi",
+    "nuxt",
+    "monorepo",
+    "pnpm"
+  ],
+  "author": "xthirtysix",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.17.0"
+  },
+  "type": "module",
+  "packageManager": "pnpm@9.15.3",
+  "devDependencies": {
+    "@nx/nuxt": "20.3.0",
+    "@nx/vite": "20.3.0",
+    "@nx/web": "20.3.0",
+    "@vitest/ui": "^1.3.1",
+    "nuxt": "^3.10.0",
+    "nx": "20.3.0",
+    "prettier": "^3.4.2",
+    "vite": "^5.0.0",
+    "vitest": "^1.3.1"
+  },
+  "dependencies": {}
+}
